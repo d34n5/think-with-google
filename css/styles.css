@@ -14,7 +14,7 @@
 body {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   font-size: 1rem;
-  font-weight: lighter;
+  font-weight: 300;
   margin: 0;
   overflow: hidden;
 }
@@ -35,7 +35,7 @@ body {
   background-color: darkgray;
   background-image: url("../img/pic1.jpg");
   background-size: cover;
-  background-position: right;
+  background-position: center;
   height: 50vh;
   width: 100vw;
   position: relative;
@@ -53,8 +53,14 @@ body {
   bottom: 7.5%;
   left: 7.5%;
   color:  white;
-  padding: .66em;
+  padding: .5em;
   padding-top: 0em;
+  font-size: 1.35em;
+}
+
+.overlay1 .sub-header {
+  position: relative;
+  top: -12%;
 }
 
 .pic2 {
@@ -151,6 +157,7 @@ body {
   margin-top: .5em;
 }
 
+
 /*------------------
 Media Queries
 ------------------*/
@@ -207,6 +214,8 @@ Media Queries
 
 .headlineB {
   display: inline-block;
+  position: absolute;
+  top: 70%;
 }
 
 }
@@ -299,7 +308,25 @@ body {
 
 .sub-header {
   position: relative;
-  top: -10%;
+  top: -15%;
 }
 
+#headline1 {
+  position: relative;
+  top: -15%;
+}
+
+#sub-header1{
+  position: relative;
+  top: -20%;
+  font-size: 1rem;
+}
+
+.headlineB {
+  font-size: 1rem;
+}
+
+.sub-header {
+  font-size: .9rem;
+}
 }
