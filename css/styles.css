@@ -16,6 +16,7 @@ body {
   font-size: 1rem;
   font-weight: lighter;
   margin: 0;
+  overflow: hidden;
 }
 
 .nav {
@@ -40,6 +41,7 @@ body {
   position: relative;
   display: block;
   min-height: 300px;
+  overflow: hidden;
 }
 
 .overlay1 {
@@ -226,13 +228,20 @@ body {
 
 #US {
   float: left;
+  position: relative;
+  left: 1.5%;
 }
 
 #logo {
   float: left;
 }
 
-
+#mag-glass {
+  float: right;
+  position: absolute;
+  top: 1.5%;
+  right: 1%;
+}
 
 #menu {
   display: none;
@@ -241,14 +250,17 @@ body {
 .nav li {
   float: right;
   list-style: none;
-  font-size: .75em;
+  font-size: .9em;
   color: grey;
   padding: .75em;
+  position: relative;
+  right: 3%;
 }
 
-#mag-glass {
-  float: right;
+.nav {
+  display: inline;
 }
+
 
 .tile1 {
   height: 90vh;
@@ -289,6 +301,5 @@ body {
   position: relative;
   top: -10%;
 }
-
 
 }
