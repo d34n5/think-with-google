@@ -1,12 +1,24 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: borderbox;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+:root {
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .9em;
+}
+
+.content2,
+.content3 {
+
 }
 
 .navbar {
@@ -100,7 +112,7 @@ body {
 }
 
 .headline {
-  font-size: 1.25rem;
+  font-size: 1.1em;
   padding: .5em;
 }
 
@@ -127,4 +139,53 @@ body {
   max-width: 12em;
   max-height: 3em;
   margin-top: .5em;
+}
+
+/*------------------
+Media Queries
+------------------*/
+
+@media (min-width: 600px) {
+
+ .overlay1 {
+   height: 250px;
+   width: 250px;
+ }
+
+ .tile2 {
+   width: 50vw;
+   height: 30vh;
+   margin: 0;
+   float: left;
+ }
+
+ .tile3 {
+   width: 50vw;
+   height: 30vh;
+   float: right;
+   margin: 0;
+ }
+
+.content2 {
+  width: 50vw;
+  height: 10vh;
+  color: fuchsia;
+}
+
+.pic2 {
+  width: 50vw
+  height: 20vh;
+}
+
+.pic3 {
+  width: 50vw;
+  height: 20vh;
+}
+
+.content3 {
+  width: 50vw;
+  height: 10vh;
+  color: fuchsia;
+}
+
 }
