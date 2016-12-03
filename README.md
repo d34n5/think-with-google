@@ -2,10 +2,6 @@
 
 ### Think with Google HomePage MockUp in CSS ###
 
-### Please check out this project live on gh-pages: https://d34n5.github.io/google-think ###
-
-![screenshot](img/ss2.png)
-
 ### Week 2 CSS Independent Project by Dean Scelza @ Epicodus, 12-2-16 ###
 
 #### Description & Technologies Used ####
