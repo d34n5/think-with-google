@@ -1,8 +1,8 @@
 # Gink with Thoogle #
 
-#### Think with Google HomePage MockUp in CSS ####
+### Think with Google HomePage MockUp in CSS ###
 
-## Please check out this project live on gh-pages: https://d34n5.github.io/google-think ##
+### Please check out this project live on gh-pages: https://d34n5.github.io/google-think ###
 
 ![screenshot](img/ss.png)
 
